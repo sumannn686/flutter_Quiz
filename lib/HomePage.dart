@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
-  const HomePage(this.changeScreen ,{super.key});
+  const HomePage(this.changeScreen, {super.key});
 
-final void Function() changeScreen;
+  final void Function() changeScreen;
   @override
   Widget build(BuildContext context) {
     return Center(
