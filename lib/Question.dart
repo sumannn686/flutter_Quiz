@@ -18,7 +18,9 @@ class _QuestionScreenState extends State<QuestionScreen> {
           const Text(
             "Welcome",
             style: TextStyle(
-                color: Colors.amber, fontSize: 20, fontWeight: FontWeight.bold),
+                color: Color.fromARGB(255, 216, 190, 111),
+                fontSize: 20,
+                fontWeight: FontWeight.bold),
           ),
           ElevatedButton(
             onPressed: () {},
