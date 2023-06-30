@@ -1,3 +1,5 @@
+//this is the class --blueprint
+
 class QuizQuestion {
   const QuizQuestion(this.text, this.answer);
 
